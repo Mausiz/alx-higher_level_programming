@@ -2,6 +2,8 @@
 # 5-no_c.py
 
 def no_c(my_string):
-    """ removes all characters c and C from a string."""
-    copy = [x for x in my string if x != 'c' and x != 'C']
-    return ("".join(copy))
+    new_string = ""
+    for elements in my_string:
+        if elements != "c" and elements != "C":
+            new_string += elements
+    return new_string
