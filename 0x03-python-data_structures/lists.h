@@ -5,11 +5,11 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - singly linked lists
- * @n: integer
+ * struct listint_s - singly linked list
+ * @n: int
  * @next: points to nxt node
  *
- * Description: singly linked list node structure
+ * Description: singly linked list nodee structure
  */
 typedef struct listint_s
 {
@@ -22,4 +22,4 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 int is_palindrome(listint_t **head);
 
-#endif
+#endif 
